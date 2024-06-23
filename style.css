@@ -1,0 +1,17 @@
+h3{
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+button{
+    margin: 30px;
+
+}
+body{
+    background: url("./media/pexels-marcin-jozwiak-618082.jpg");
+    background-size: cover;
+}
+#exampleModalLongTitle{
+    font-weight: bolder;
+    
+}
