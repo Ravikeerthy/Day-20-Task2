@@ -1,5 +1,7 @@
 // Using async function to fetch api
 async function isroapi() {
+
+  try {
     let gettingInput = await fetch("https://isro.vercel.app/api/centres");
     let res = await gettingInput.json();
     console.log(res);
@@ -22,6 +24,10 @@ async function isroapi() {
         document.getElementById("inputItem").appendChild(option);
       });
     }
+  } catch (error) {
+    console.error(err);
+  }
+   
   }
   isroapi(); // async function call
   
